@@ -1,3 +1,14 @@
+# Merge sort:
+#
+# O: n * log(n)
+#
+# sorts an array by recursively breaking it into two, sorting the parts, and
+# merging the sorted parts.
+#
+# Where most basic sorting algorithms run in O n^2 (quadratic time) (we're
+# talking selection, insertion, and bubble sort), merge sort runs in O n *
+# log(n).
+#
 class MergeSort < Struct.new(:array)
   def perform
     sort(array)
