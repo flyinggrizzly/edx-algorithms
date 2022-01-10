@@ -1,4 +1,4 @@
-require 'intro/merge_sort'
+require 'part-1/intro/merge_sort'
 
 RSpec.describe MergeSort do
   def sort(array)
