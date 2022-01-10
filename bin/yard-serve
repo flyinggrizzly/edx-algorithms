@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+bundle exec yard
+bundle exec yard server -B localhost -p 8808
+
